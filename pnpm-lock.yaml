@@ -72,8 +72,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       instantsearch.js:
-        specifier: 4.75.6
-        version: 4.75.6(algoliasearch@5.18.0)
+        specifier: 4.77.0
+        version: 4.77.0(algoliasearch@5.18.0)
       js-yaml:
         specifier: 4.1.0
         version: 4.1.0
@@ -497,8 +497,8 @@ packages:
     resolution: {integrity: sha512-H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==}
     engines: {node: '>= 14'}
 
-  algoliasearch-helper@3.22.6:
-    resolution: {integrity: sha512-F2gSb43QHyvZmvH/2hxIjbk/uFdO2MguQYTFP7J+RowMW1csjIODMobEnpLI8nbLQuzZnGZdIxl5Bpy1k9+CFQ==}
+  algoliasearch-helper@3.23.0:
+    resolution: {integrity: sha512-8CK4Gb/ju4OesAYcS+mjBpNiVA7ILWpg7D2vhBZohh0YkG8QT1KZ9LG+8+EntQBUGoKtPy06OFhiwP4f5zzAQg==}
     peerDependencies:
       algoliasearch: '>= 3.1 < 6'
 
@@ -1119,11 +1119,11 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  instantsearch-ui-components@0.9.0:
-    resolution: {integrity: sha512-ugQ+XdPx3i3Sxu+woRo6tPE0Fz/kWd4KblTUfZD1TZZBsm/8qFvcbg5dVBDvXX9v7ntoyugXCzC/XCZMzrSkig==}
+  instantsearch-ui-components@0.11.0:
+    resolution: {integrity: sha512-qKGXWK32MIXj6zw4bIxj+JRMcCOvOmf1dnRgyM9J1vqQR3tyh69qzDQ2hojDF2s7LsvWeKo3QpvkoP7rjkCybg==}
 
-  instantsearch.js@4.75.6:
-    resolution: {integrity: sha512-rQyF3VHmxdwR+9VFhwrBtKgAWjPIpN8QdjSOq72HHJOx4wZhLfBhJhOhSDhjl5GP1a1+Ly2/CI62K8ZDVeAEHw==}
+  instantsearch.js@4.77.0:
+    resolution: {integrity: sha512-b0tzO7+Ugutm9o7x19qa/aQcKY+NaC2cpukOmDeWp0y0cwDyz00DfUuzcmK+DpoU1u1CgHjolRd1JVdDr2OWnA==}
     peerDependencies:
       algoliasearch: '>= 3.1 < 6'
 
@@ -1604,7 +1604,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -2366,7 +2366,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  algoliasearch-helper@3.22.6(algoliasearch@5.18.0):
+  algoliasearch-helper@3.23.0(algoliasearch@5.18.0):
     dependencies:
       '@algolia/events': 4.0.1
       algoliasearch: 5.18.0
@@ -3036,7 +3036,7 @@ snapshots:
       hexo-pagination: 4.0.0
       hexo-renderer-pug: 3.0.0
       hexo-util: 3.3.0
-      instantsearch.js: 4.75.6(algoliasearch@5.18.0)
+      instantsearch.js: 4.77.0(algoliasearch@5.18.0)
       js-yaml: 4.1.0
       katex: 0.16.11
       mouse-firework: 0.0.6
@@ -3143,11 +3143,11 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  instantsearch-ui-components@0.9.0:
+  instantsearch-ui-components@0.11.0:
     dependencies:
       '@babel/runtime': 7.24.7
 
-  instantsearch.js@4.75.6(algoliasearch@5.18.0):
+  instantsearch.js@4.77.0(algoliasearch@5.18.0):
     dependencies:
       '@algolia/events': 4.0.1
       '@types/dom-speech-recognition': 0.0.1
@@ -3155,10 +3155,10 @@ snapshots:
       '@types/hogan.js': 3.0.5
       '@types/qs': 6.9.15
       algoliasearch: 5.18.0
-      algoliasearch-helper: 3.22.6(algoliasearch@5.18.0)
+      algoliasearch-helper: 3.23.0(algoliasearch@5.18.0)
       hogan.js: 3.0.2
       htm: 3.1.1
-      instantsearch-ui-components: 0.9.0
+      instantsearch-ui-components: 0.11.0
       preact: 10.22.0
       qs: 6.9.7
       search-insights: 2.17.3
