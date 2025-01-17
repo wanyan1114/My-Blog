@@ -90,8 +90,8 @@ importers:
         specifier: 0.0.3
         version: 0.0.3
       twikoo:
-        specifier: 1.6.40
-        version: 1.6.40
+        specifier: 1.6.41
+        version: 1.6.41
       unlazy:
         specifier: 0.12.1
         version: 0.12.1
@@ -1604,7 +1604,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -1847,8 +1847,8 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  twikoo@1.6.40:
-    resolution: {integrity: sha512-Rl1OZAij95/czD1oiwmTi4Om5yZeKNENqIR7Kq0SygEztV6w2423ac9PHbOXDZPYnvTJB9wqBapS2+AlKFWcfg==}
+  twikoo@1.6.41:
+    resolution: {integrity: sha512-Hrp/fvk2N5oqin+9bkFVULstL+YMwQjn/vVL8r5FPIhyRBA0zWAgUri4hhCji4FsXegKR6+ihyMPTXBRENjnnA==}
 
   typescript@5.5.2:
     resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
@@ -3043,7 +3043,7 @@ snapshots:
       quicklink: 2.3.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
       theme-shokax-anime: 0.0.7
       theme-shokax-pjax: 0.0.3
-      twikoo: 1.6.40
+      twikoo: 1.6.41
       unlazy: 0.12.1
     transitivePeerDependencies:
       - chalk
@@ -3903,7 +3903,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  twikoo@1.6.40: {}
+  twikoo@1.6.41: {}
 
   typescript@5.5.2:
     optional: true
