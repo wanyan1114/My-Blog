@@ -66,8 +66,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       hexo-theme-shokax:
-        specifier: 0.4.17
-        version: 0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)(typescript@5.5.2)
+        specifier: 0.4.18
+        version: 0.4.18(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)(typescript@5.5.2)
       hexo-util:
         specifier: 3.3.0
         version: 3.3.0
@@ -1066,8 +1066,8 @@ packages:
   hexo-theme-landscape@1.0.0:
     resolution: {integrity: sha512-bWQJWMqQI78wWiJPQZq5pJBH20TM442ShCaHGRetuEgMraxH0OKxB3NTupJzNEkzEk8DV2yrdizkXdKN6i501A==}
 
-  hexo-theme-shokax@0.4.17:
-    resolution: {integrity: sha512-86/Lk8q5K+BkrrErxs5NF4ZEy2uQp8flfUfawU9uv59UvqURZeI4MAyU0fs9uJE9uZjwa+KaJ08HewYcZLEB+A==}
+  hexo-theme-shokax@0.4.18:
+    resolution: {integrity: sha512-rphfrJpkN4aKdoy4HI9FM13Gcyuun8RazVZcLIR6Y/DFEGSigGXh2crG5+9IEpcD5njZ5ex/uCVZ7n5E4zQkoQ==}
     engines: {node: '>=18.0.0'}
 
   hexo-util@3.3.0:
@@ -1224,8 +1224,8 @@ packages:
     resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
     hasBin: true
 
-  katex@0.16.11:
-    resolution: {integrity: sha512-RQrI8rlHY92OLf3rho/Ts8i/XvjgguEjOkO1BEXcU3N8BqPpSzBNwV/G0Ukr+P/l3ivvJUE/Fa/CwbS6HesGNQ==}
+  katex@0.16.21:
+    resolution: {integrity: sha512-XvqR7FgOHtWupfMiigNzmh+MgUVmDGU2kXZm899ZkPfcuoPuFxyHmXsgATDpFZDAXCI8tvinaVcDo8PIIJSo4A==}
     hasBin: true
 
   lines-and-columns@1.2.4:
@@ -1604,7 +1604,7 @@ packages:
   puppeteer@21.11.0:
     resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
     engines: {node: '>=16.13.2'}
-    deprecated: < 22.6.4 is no longer supported
+    deprecated: < 22.8.2 is no longer supported
     hasBin: true
 
   qs@6.9.7:
@@ -3023,7 +3023,7 @@ snapshots:
 
   hexo-theme-landscape@1.0.0: {}
 
-  hexo-theme-shokax@0.4.17(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)(typescript@5.5.2):
+  hexo-theme-shokax@0.4.18(chalk@4.1.2)(chokidar@3.6.0)(react-dom@16.14.0(react@16.14.0))(react@16.14.0)(typescript@5.5.2):
     dependencies:
       '@algolia/client-search': 5.18.0
       '@waline/client': 3.4.2(typescript@5.5.2)
@@ -3038,7 +3038,7 @@ snapshots:
       hexo-util: 3.3.0
       instantsearch.js: 4.75.6(algoliasearch@5.18.0)
       js-yaml: 4.1.0
-      katex: 0.16.11
+      katex: 0.16.21
       mouse-firework: 0.0.6
       quicklink: 2.3.0(react-dom@16.14.0(react@16.14.0))(react@16.14.0)
       theme-shokax-anime: 0.0.7
@@ -3251,7 +3251,7 @@ snapshots:
     dependencies:
       commander: 8.3.0
 
-  katex@0.16.11:
+  katex@0.16.21:
     dependencies:
       commander: 8.3.0
 
