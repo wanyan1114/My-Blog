@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@algolia/client-search": "5.18.0",
-    "@waline/client": "3.4.2",
+    "@waline/client": "3.5.5",
     "algoliasearch": "5.18.0",
     "esbuild": "0.24.2",
     "hexo": "^7.3.0",
